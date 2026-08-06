@@ -1,0 +1,42 @@
+{
+  "config": "{\"version\":\"5.70\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY26SU02\",\"version\":{\"visual\":\"2.6.0\",\"report\":\"3.1.0\",\"page\":\"2.3.0\"},\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY26SU02",
+            "path": "BaseThemes/CY26SU02.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "8a7ec0b17551d40f2c30",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0bb7bccead3dda81f340\",\"layouts\":[{\"id\":0,\"position\":{\"x\":466.8693009118541,\"y\":125.47112462006079,\"z\":0,\"width\":369.6048632218845,\"height\":350.1519756838906,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"hundredPercentStackedAreaChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(financials.COGS)\"},{\"queryRef\":\"Sum(financials.Sale Price)\"},{\"queryRef\":\"Sum(financials.Sales)\"}],\"Category\":[{\"queryRef\":\"financials.Segment\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"financials\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"COGS\"}},\"Function\":0},\"Name\":\"Sum(financials.COGS)\",\"NativeReferenceName\":\"Sum of COGS\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Sale Price\"}},\"Function\":0},\"Name\":\"Sum(financials.Sale Price)\",\"NativeReferenceName\":\"Sum of Sale Price\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Sales\"}},\"Function\":0},\"Name\":\"Sum(financials.Sales)\",\"NativeReferenceName\":\"Sum of Sales\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Segment\"},\"Name\":\"financials.Segment\",\"NativeReferenceName\":\"Segment\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"COGS\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 350.15,
+          "width": 369.60,
+          "x": 466.87,
+          "y": 125.47,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

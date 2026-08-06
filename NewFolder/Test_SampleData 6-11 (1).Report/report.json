@@ -1,0 +1,43 @@
+{
+  "config": "{\"version\":\"5.73\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY26SU05\",\"version\":{\"visual\":\"2.9.0\",\"report\":\"3.3.0\",\"page\":\"2.3.1\"},\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY26SU05",
+            "path": "BaseThemes/CY26SU05.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "99804f7e5cc06890ed75",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"494d54952ec12da80e40\",\"layouts\":[{\"id\":0,\"position\":{\"x\":438.4285681330596,\"y\":92.59913723499966,\"z\":0,\"width\":476.2241343514268,\"height\":548.0357101663245}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Sheet1.Month Number)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet1\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Month Number\"}},\"Function\":0},\"Name\":\"Sum(Sheet1.Month Number)\",\"NativeReferenceName\":\"Sum of Month Number\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 548.04,
+          "queryBinary": "H4sIAAAAAAAEAG1QQU7DMBD8SrQnkCKUcMwNSsoBtSoEcUE5GHebGNV2tLZRqyh/Z+1EFCRuO7szO6MZYWW1FmbvoHofoUGevZLPAen8ILxoejHgQoFqhHSIwxuSU9ZAdZvDmqxO8q3QCBU4yKHmN56Z0PSIvuTN63ngYzG1OdscUfokues6wk749GuE+jQQOreglT0G/c++sYEkvuDhApLtNOWwIzsgJeuNNb7PtkF/IKXbOhg5OxWMlrRN0FdzyJvfgmuIDK++og8SGokXQWYP2d/vLT+8V2avTBdD7UhpMTf1SDYMvJ4b5nifmEJEXLRJ+FNmyaA+oQyRsEFPSronFasvJ2Z+A0hL2sGuAQAA",
+          "width": 476.22,
+          "x": 438.43,
+          "y": 92.60,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

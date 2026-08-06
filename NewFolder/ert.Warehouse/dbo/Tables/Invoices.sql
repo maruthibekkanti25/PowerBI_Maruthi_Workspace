@@ -1,0 +1,26 @@
+CREATE TABLE [dbo].[Invoices] (
+
+	[ShipName] varchar(8000) NULL, 
+	[ShipAddress] varchar(8000) NULL, 
+	[ShipCity] varchar(8000) NULL, 
+	[ShipRegion] varchar(8000) NULL, 
+	[ShipPostalCode] varchar(8000) NULL, 
+	[ShipCountry] varchar(8000) NULL, 
+	[CustomerID] varchar(8000) NULL, 
+	[CustomerName] varchar(8000) NULL, 
+	[Address] varchar(8000) NULL, 
+	[City] varchar(8000) NULL, 
+	[Region] varchar(8000) NULL, 
+	[PostalCode] varchar(8000) NULL, 
+	[Country] varchar(8000) NULL, 
+	[Salesperson] varchar(8000) NULL, 
+	[OrderID] int NULL, 
+	[ShipperName] varchar(8000) NULL, 
+	[ProductID] int NULL, 
+	[ProductName] varchar(8000) NULL, 
+	[UnitPrice] decimal(38,6) NULL, 
+	[Quantity] smallint NULL, 
+	[Discount] real NULL, 
+	[ExtendedPrice] decimal(38,6) NULL, 
+	[Freight] decimal(38,6) NULL
+);

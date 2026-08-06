@@ -1,0 +1,43 @@
+{
+  "config": "{\"version\":\"5.73\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY26SU05\",\"version\":{\"visual\":\"2.9.0\",\"report\":\"3.3.0\",\"page\":\"2.3.1\"},\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY26SU05",
+            "path": "BaseThemes/CY26SU05.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "326a2af9aec6d9a6bb9d",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"d465b596a6c256cdae14\",\"layouts\":[{\"id\":0,\"position\":{\"x\":351.49876583081505,\"y\":162.520934738979,\"z\":0,\"width\":430.8694548893862,\"height\":425.2001199566311}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Sheet1.Month Number)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet1\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Month Number\"}},\"Function\":0},\"Name\":\"Sum(Sheet1.Month Number)\",\"NativeReferenceName\":\"Sum of Month Number\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 425.20,
+          "queryBinary": "H4sIAAAAAAAEAG1QQU7DMBD8SrQnkCKUcMwNSsoBtSoEcUE5GHebGNV2tLZRqyh/Z+1EFCRuO7szO6MZYWW1FmbvoHofoUGevZLPAen8ILxoejHgQoFqhHSIwxuSU9ZAdZvDmqxO8q3QCBU4yKHmN56Z0PSIvuTN63ngYzG1OdscUfokues6wk749GuE+jQQOreglT0G/c++sYEkvuDhApLtNOWwIzsgJeuNNb7PtkF/IKXbOhg5OxWMlrRN0FdzyJvfgmuIDK++og8SGokXQWYP2d/vLT+8V2avTBdD7UhpMTf1SDYMvJ4b5nifmEJEXLRJ+FNmyaA+oQyRsEFPSronFasvJ2Z+A0hL2sGuAQAA",
+          "width": 430.87,
+          "x": 351.50,
+          "y": 162.52,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
