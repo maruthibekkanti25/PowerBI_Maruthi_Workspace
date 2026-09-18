@@ -1,0 +1,39 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "Dataflow_Cameron",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "DefaultDestination": {
+      "queryId": "c6de4811-8ae5-4620-80d8-6fc8d3d425a8",
+      "queryName": "DefaultDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "Alphabetical_list_of_products": {
+      "queryId": "2c572f6c-78a0-4ed8-a394-587ebc868476",
+      "queryName": "Alphabetical_list_of_products",
+      "loadEnabled": false
+    },
+    "Categories": {
+      "queryId": "8e32a3b4-0f70-499c-a935-e2a85008e2d5",
+      "queryName": "Categories",
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "PowerPlatformDataflows",
+      "kind": "PowerPlatformDataflows",
+      "connectionId": "{\"ClusterId\":\"494d148f-d1b6-489e-8a9c-42b01a3fda29\",\"DatasourceId\":\"f74e9c49-6ec6-473e-bd32-40ca9c238ea7\"}"
+    },
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"494d148f-d1b6-489e-8a9c-42b01a3fda29\",\"DatasourceId\":\"2ff6d55c-ec02-43a7-8607-d8fdfde25cd0\"}"
+    }
+  ]
+}
