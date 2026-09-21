@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Plan",
+    "displayName": "Planning_ZAP"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "19d6f3da-48aa-b017-4709-ce312743daeb"
+  }
+}

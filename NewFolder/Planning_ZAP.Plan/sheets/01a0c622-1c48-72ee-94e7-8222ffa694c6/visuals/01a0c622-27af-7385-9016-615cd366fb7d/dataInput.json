@@ -1,0 +1,239 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/plan/definition/Planning/DataInput/1.0.0/schema.json",
+  "columns": [
+    {
+      "boundToFilterContext": 10,
+      "columnMeta": {
+        "data_type": "Number",
+        "description": null,
+        "id": "4114464184783548872",
+        "label": "Sum of Discounts",
+        "measure_type": {
+          "Native": {
+            "measure_role": "ACMeasure"
+          }
+        },
+        "name": "Sum of Discounts"
+      },
+      "dataInputType": 6,
+      "description": null,
+      "measureGuid": "4114464184783548872",
+      "name": "Sum of Discounts",
+      "sidecarHydrationLeaseAt": null,
+      "sidecarHydrationStatus": 10,
+      "status": 10,
+      "visualId": "01a0c622-27af-7385-9016-615cd366fb7d"
+    },
+    {
+      "boundToFilterContext": 10,
+      "columnMeta": {
+        "data_type": "Number",
+        "description": "",
+        "id": "12147556584702543790",
+        "label": "Planning Amount",
+        "measure_type": {
+          "DataInput": {
+            "allow_input": "ReadAndEdit",
+            "bound_to_filter_context": true,
+            "column_type": {
+              "Number": {
+                "default_value": null,
+                "distribute_parent_value_to_children": true,
+                "max_value": null,
+                "min_value": null
+              }
+            },
+            "disable_write_access": false,
+            "id": "",
+            "on_change_formula": "",
+            "title": "Planning Amount"
+          }
+        }
+      },
+      "dataInputType": 6,
+      "description": null,
+      "measureGuid": "12147556584702543790",
+      "name": "Planning Amount",
+      "sidecarHydrationLeaseAt": null,
+      "sidecarHydrationStatus": 10,
+      "status": 10,
+      "visualId": "01a0c622-27af-7385-9016-615cd366fb7d"
+    },
+    {
+      "boundToFilterContext": 10,
+      "columnMeta": {
+        "data_type": "Text",
+        "description": null,
+        "id": "659146370566721226",
+        "label": "Manager",
+        "measure_type": {
+          "VisualColumn": {
+            "DataInput": {
+              "allow_input": "ReadAndEdit",
+              "bound_to_filter_context": true,
+              "column_type": {
+                "SingleSelect": {
+                  "advanced": null,
+                  "allow_entry_on_totals_or_subtotals": true,
+                  "allow_user_to_add_new_option": false,
+                  "default_value": null,
+                  "icon_position": "left",
+                  "option_style": "Chip",
+                  "options": [
+                    {
+                      "color": "#FFE69C",
+                      "display_name": "In Progress",
+                      "icon": "circle-fill",
+                      "order": 1,
+                      "value": "custom_select_wRPqtywq"
+                    },
+                    {
+                      "color": "#9ACBEB",
+                      "display_name": "Submitted",
+                      "icon": "circle-fill",
+                      "order": 2,
+                      "value": "custom_select_FpJP1xbe"
+                    },
+                    {
+                      "color": "#FD7E14",
+                      "display_name": "Reopened",
+                      "icon": "circle-fill",
+                      "order": 3,
+                      "value": "custom_select_YWcbKzeM"
+                    }
+                  ],
+                  "options_source": {
+                    "Static": [
+                      {
+                        "color": "#FFE69C",
+                        "display_name": "In Progress",
+                        "icon": "circle-fill",
+                        "order": 1,
+                        "value": "custom_select_wRPqtywq"
+                      },
+                      {
+                        "color": "#9ACBEB",
+                        "display_name": "Submitted",
+                        "icon": "circle-fill",
+                        "order": 2,
+                        "value": "custom_select_FpJP1xbe"
+                      },
+                      {
+                        "color": "#FD7E14",
+                        "display_name": "Reopened",
+                        "icon": "circle-fill",
+                        "order": 3,
+                        "value": "custom_select_YWcbKzeM"
+                      }
+                    ]
+                  },
+                  "prevent_null": null
+                }
+              },
+              "disable_write_access": false,
+              "id": "",
+              "on_change_formula": "IF(THIS == 'Submitted', SETVALUE(M_701204268066383567, 'Pending'), '')\nIF(THIS == 'Submitted', NOTIFY_USER(['pk123@biatiplwbweubp.onmicrosoft.com', 'zoro.roronoa@biatiplwbweubp.onmicrosoft.com'], '', ''), '')",
+              "title": "Manager"
+            }
+          }
+        }
+      },
+      "dataInputType": 2,
+      "description": null,
+      "measureGuid": "659146370566721226",
+      "name": "Manager",
+      "sidecarHydrationLeaseAt": null,
+      "sidecarHydrationStatus": 10,
+      "status": 10,
+      "visualId": "01a0c622-27af-7385-9016-615cd366fb7d"
+    },
+    {
+      "boundToFilterContext": 10,
+      "columnMeta": {
+        "data_type": "Text",
+        "description": null,
+        "id": "701204268066383567",
+        "label": "PM",
+        "measure_type": {
+          "VisualColumn": {
+            "DataInput": {
+              "allow_input": "ReadAndEdit",
+              "bound_to_filter_context": true,
+              "column_type": {
+                "SingleSelect": {
+                  "advanced": null,
+                  "allow_entry_on_totals_or_subtotals": true,
+                  "allow_user_to_add_new_option": false,
+                  "default_value": null,
+                  "icon_position": "left",
+                  "option_style": "Chip",
+                  "options": [
+                    {
+                      "color": "#E2E3E5",
+                      "display_name": "Pending",
+                      "icon": "circle-fill",
+                      "order": 1,
+                      "value": "custom_select_G207Fof8"
+                    },
+                    {
+                      "color": "#A8E6A1",
+                      "display_name": "Approved",
+                      "icon": "circle-fill",
+                      "order": 2,
+                      "value": "custom_select_gehex4Ih"
+                    },
+                    {
+                      "color": "#ff6f7c",
+                      "display_name": "Rejected",
+                      "icon": "circle-fill",
+                      "order": 3,
+                      "value": "custom_select_OPjXvwCr"
+                    }
+                  ],
+                  "options_source": {
+                    "Static": [
+                      {
+                        "color": "#E2E3E5",
+                        "display_name": "Pending",
+                        "icon": "circle-fill",
+                        "order": 1,
+                        "value": "custom_select_G207Fof8"
+                      },
+                      {
+                        "color": "#A8E6A1",
+                        "display_name": "Approved",
+                        "icon": "circle-fill",
+                        "order": 2,
+                        "value": "custom_select_gehex4Ih"
+                      },
+                      {
+                        "color": "#ff6f7c",
+                        "display_name": "Rejected",
+                        "icon": "circle-fill",
+                        "order": 3,
+                        "value": "custom_select_OPjXvwCr"
+                      }
+                    ]
+                  },
+                  "prevent_null": null
+                }
+              },
+              "disable_write_access": false,
+              "id": "",
+              "on_change_formula": "IF(THIS == 'Rejected', SETVALUE(M_659146370566721226, 'Reopened'), '')\nIF(HAS(['Approved','Rejected'], THIS), NOTIFY_USER(['goldroger@biatiplwbweubp.onmicrosoft.com', 'zoro.roronoa@biatiplwbweubp.onmicrosoft.com'], '', ''), '')",
+              "title": "PM"
+            }
+          }
+        }
+      },
+      "dataInputType": 2,
+      "description": null,
+      "measureGuid": "701204268066383567",
+      "name": "PM",
+      "sidecarHydrationLeaseAt": null,
+      "sidecarHydrationStatus": 10,
+      "status": 10,
+      "visualId": "01a0c622-27af-7385-9016-615cd366fb7d"
+    }
+  ]
+}
